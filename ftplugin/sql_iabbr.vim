@@ -163,6 +163,7 @@ inoreabbr <silent> <buffer> sequence <C-R>=SqlIab_ReplaceConditionally('sequence
 inoreabbr <silent> <buffer> serial <C-R>=SqlIab_ReplaceConditionally('serial', 'SERIAL')<CR>
 inoreabbr <silent> <buffer> session <C-R>=SqlIab_ReplaceConditionally('session', 'SESSION')<CR>
 inoreabbr <silent> <buffer> set <C-R>=SqlIab_ReplaceConditionally('set', 'SET')<CR>
+inoreabbr <silent> <buffer> setof <C-R>=SqlIab_ReplaceConditionally('setof', 'SETOF')<CR>
 inoreabbr <silent> <buffer> share <C-R>=SqlIab_ReplaceConditionally('share', 'SHARE')<CR>
 inoreabbr <silent> <buffer> show <C-R>=SqlIab_ReplaceConditionally('show', 'SHOW')<CR>
 inoreabbr <silent> <buffer> size <C-R>=SqlIab_ReplaceConditionally('size', 'SIZE')<CR>
