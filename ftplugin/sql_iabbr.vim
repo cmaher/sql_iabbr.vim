@@ -103,20 +103,28 @@ inoreabbr <silent> <buffer> instead <C-R>=SqlIab_ReplaceConditionally('instead',
 inoreabbr <silent> <buffer> intersect <C-R>=SqlIab_ReplaceConditionally('intersect', 'INTERSECT')<CR>
 inoreabbr <silent> <buffer> into <C-R>=SqlIab_ReplaceConditionally('into', 'INTO')<CR>
 inoreabbr <silent> <buffer> is <C-R>=SqlIab_ReplaceConditionally('is', 'IS')<CR>
+
+inoreabbr <silent> <buffer> join <C-R>=SqlIab_ReplaceConditionally('join', 'JOIN')<CR>
+
 inoreabbr <silent> <buffer> key <C-R>=SqlIab_ReplaceConditionally('key', 'KEY')<CR>
+
 inoreabbr <silent> <buffer> language <C-R>=SqlIab_ReplaceConditionally('language', 'LANGUAGE')<CR>
 inoreabbr <silent> <buffer> level <C-R>=SqlIab_ReplaceConditionally('level', 'LEVEL')<CR>
+inoreabbr <silent> <buffer> listen <C-R>=SqlIab_ReplaceConditionally('limit', 'LIMIT')<CR>
 inoreabbr <silent> <buffer> listen <C-R>=SqlIab_ReplaceConditionally('listen', 'LISTEN')<CR>
 inoreabbr <silent> <buffer> load <C-R>=SqlIab_ReplaceConditionally('load', 'LOAD')<CR>
 inoreabbr <silent> <buffer> lock <C-R>=SqlIab_ReplaceConditionally('lock', 'LOCK')<CR>
 inoreabbr <silent> <buffer> long <C-R>=SqlIab_ReplaceConditionally('long', 'LONG')<CR>
 inoreabbr <silent> <buffer> loop <C-R>=SqlIab_ReplaceConditionally('loop', 'LOOP')<CR>
+
 inoreabbr <silent> <buffer> maxextents <C-R>=SqlIab_ReplaceConditionally('maxextents', 'MAXEXTENTS')<CR>
 inoreabbr <silent> <buffer> minus <C-R>=SqlIab_ReplaceConditionally('minus', 'MINUS')<CR>
 inoreabbr <silent> <buffer> mlslabel <C-R>=SqlIab_ReplaceConditionally('mlslabel', 'MLSLABEL')<CR>
 inoreabbr <silent> <buffer> mode <C-R>=SqlIab_ReplaceConditionally('mode', 'MODE')<CR>
 inoreabbr <silent> <buffer> modify <C-R>=SqlIab_ReplaceConditionally('modify', 'MODIFY')<CR>
 inoreabbr <silent> <buffer> move <C-R>=SqlIab_ReplaceConditionally('move', 'MOVE')<CR>
+
+inoreabbr <silent> <buffer> noaudit <C-R>=SqlIab_ReplaceConditionally('natural', 'NATURAL')<CR>
 inoreabbr <silent> <buffer> noaudit <C-R>=SqlIab_ReplaceConditionally('noaudit', 'NOAUDIT')<CR>
 inoreabbr <silent> <buffer> nocompress <C-R>=SqlIab_ReplaceConditionally('nocompress', 'NOCOMPRESS')<CR>
 inoreabbr <silent> <buffer> not <C-R>=SqlIab_ReplaceConditionally('not', 'NOT')<CR>
@@ -124,6 +132,7 @@ inoreabbr <silent> <buffer> notify <C-R>=SqlIab_ReplaceConditionally('notify', '
 inoreabbr <silent> <buffer> nowait <C-R>=SqlIab_ReplaceConditionally('nowait', 'NOWAIT')<CR>
 inoreabbr <silent> <buffer> null <C-R>=SqlIab_ReplaceConditionally('null', 'NULL')<CR>
 inoreabbr <silent> <buffer> number <C-R>=SqlIab_ReplaceConditionally('number', 'NUMBER')<CR>
+
 inoreabbr <silent> <buffer> of <C-R>=SqlIab_ReplaceConditionally('of', 'OF')<CR>
 inoreabbr <silent> <buffer> offline <C-R>=SqlIab_ReplaceConditionally('offline', 'OFFLINE')<CR>
 inoreabbr <silent> <buffer> on <C-R>=SqlIab_ReplaceConditionally('on', 'ON')<CR>
